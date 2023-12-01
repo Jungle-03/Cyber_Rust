@@ -1,0 +1,586 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
+
+*{
+    margin: 0;
+}
+
+.body-style{
+	background-color: gray;
+}
+.Vizit-words{
+	font-family: Arimo;
+	
+	text-align: center;
+	padding-top: 5%;
+	margin-bottom: 5%;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+.top-menu{
+	margin-bottom: 25%;
+}
+
+.servers{
+	color: white;
+	font-family: Arimo;
+	text-align: center;
+	font-size: 50px;
+
+
+
+}
+.Num-of-server{
+text-align: left;
+}
+
+.goods{
+	margin-top: 10%;
+	margin-bottom: 5%;
+	color: white;
+	font-family: Arimo;
+	text-align: center;
+	font-size: 55px;
+
+}
+
+
+.container2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 30vh;
+      margin: 5%;
+      font-family: Arimo;
+      font-size: 13px;
+      color: white;
+    }
+    
+    .left-block, .right-block {
+      width: 15%;
+      padding: 20px;
+    }
+    
+    .left-block {
+   
+    }
+    
+    .right-block {
+   
+      text-align: right;
+    }
+
+    .fon2{
+    	background-color: #2B2B2B;
+    }
+
+    .wave{
+    	fill: #2B2B2B;
+
+    }
+
+    .fon1{
+    }
+
+
+
+
+
+    .neon-title {
+      font-family: 'Arial', sans-serif;
+      font-size: 70px;
+      color: #fff;
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF00FF, 0 0 70px #FF00FF, 0 0 80px #FF00FF, 0 0 100px #FF00FF, 0 0 150px #FF00FF;
+      animation: flicker 1.5s infinite alternate;
+      	font-family: Arimo;
+    }
+
+    @keyframes flicker {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.7;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+
+
+
+
+
+
+     .arrow-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background-color: white;
+      border: none;
+      color: white;
+      text-align: center;
+      font-size: 24px;
+      cursor: pointer;
+      opacity: 0.8;
+      transition: opacity 0.3s ease;
+    }
+     .arrow-button:hover {
+      opacity: 1;
+    }
+
+    /* Стили для изображения стрелки */
+    .arrow-button img {
+      width: 30px;
+      height: 30px;
+      margin-top: 15px;
+    }
+
+
+
+
+    .about{
+    	align-items: center;
+    	font-family: Arimo;
+    	background-color: #2a3030;
+    	height: 100px;
+    	color: white;
+    	display: flex;
+    	padding-left: 10%;
+    	padding-right: 10%;
+
+    	
+    }
+
+    .discord{
+    	color: white;
+    }
+    .discord:hover{
+    	color: #c28deb;
+    }
+
+
+
+
+    /* Стили для открывающихся дивов */
+ 	.overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 9999;
+      overflow: auto;
+
+    }
+
+    .overlay-content {
+  position: absolute;
+  left: 50%;
+  width: 70%;
+  transform: translate(-50%, 5%);
+  max-width: 1000px;
+  background-color: #262626;
+  z-index: 10000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  color: white;
+  font-family: Arimo;
+  width: 100%;
+  display: flex;
+
+
+
+    }
+
+    /*******************************************/
+
+
+    .plcImg{
+
+    }
+
+    .info-by-buy{
+    	
+    	padding: 5%;
+    	width: 120%;
+    	margin-right:5% ;
+    }
+
+
+
+    .goods-info{
+		display: flex;
+        align-items: center;
+    }
+
+    .name_cost {
+      text-align: left;
+      margin-left: 20px; /* Задайте нужный отступ между изображением и текстом */
+      font-size: 20px;
+
+    }
+
+
+    .shop-info{
+    	margin-top: 15%;
+
+    }
+    .shop-info h3{
+    	margin-bottom: 10%;
+    	font-size: 30px;
+    }
+
+    .text-info{
+    	margin-bottom: 5%;
+    	font-size: 15px;
+    }
+
+
+
+
+    .buy-content{
+    	padding: 5%;
+    	width: 80%;
+    	background-color: #333133;
+
+    }
+
+    .cost{
+	  display: flex;
+      justify-content: space-between;
+      border-bottom: 3px dashed white;
+      font-size: 30px;
+    }
+
+
+
+    .buy{
+
+      padding-top: 10%;
+	        
+      
+    }
+
+
+    #myInput{
+    	margin-top: 10%;
+    }
+
+    .input{
+      
+      width: 100%;
+      margin-bottom: 10%;
+      padding: 15px;
+      font-family: Arimo;
+    }
+
+    .buy_button{
+      display: block;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 15%;
+      font-family: Arimo;
+      transition: background-color 0.3s ease-in-out;
+    }
+     .buy button:hover {
+   background-color: #0062cc;
+  }
+
+
+
+
+.input-container {
+  position: relative;
+  display: flex;
+
+}
+
+.input-container input[type="text"] {
+  padding-left: 30px; /* Регулируйте значение в зависимости от размера иконки */
+  background-color: #262626;
+  color: white;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.input-container input[type="text"]:focus {
+  background-color: white;
+  color: black;
+}
+
+.input-container i.fa-user {
+  position: absolute;
+  left: 5px; /* Регулируйте значение в зависимости от размера иконки */
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  transition: color 0.5s ease-in-out;
+
+}
+
+.input-container input[type="text"]:focus + i.fa-user {
+  color: black;
+}
+
+
+/***********************    Способ оплаты           **********************************/ 
+
+    #overlay-2 {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 9999;
+      overflow: auto;
+    }
+
+    #modal-2 {
+      background-color: #fff;
+      margin: 50px auto;
+      padding: 20px;
+      max-width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      animation: fadeIn 0.3s ease-out;
+      
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeOut {
+      0% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      100% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+    }
+
+    #close-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+    }
+
+
+
+/*********************************Иконки выбора способа оплаты***********************************/
+
+
+        .payment-icons {
+            display: flex;/*********Расположение флексом***********/
+            justify-content: center;
+
+        }
+        .payment-icon {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            border-radius: 15px;
+            margin: 10px;
+            background-color: #000000;/***Цвет фона***/
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;      /**************Цвет границы*************/
+        }
+        .payment-icon i {
+            position: relative;
+            z-index: 1;
+            font-size: 2em;
+            color: white;
+            transition: color 0.3s ease;
+        }
+        .payment-icon::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+            background-color: rgba(255, 255, 255, 0.5);
+            z-index: 0;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .payment-icon:hover::before {
+            opacity: 1;
+        }
+        .payment-icon:hover {
+            background-color: white;
+           
+
+        }
+        .payment-icon:hover i {
+            color: red;
+        }
+
+
+
+/*ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            #overlay-3 {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 9999;
+      overflow: auto;
+    }
+
+    #modal-3 {
+      background-color: #fff;
+      margin: 50px auto;
+      padding: 20px;
+      max-width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      animation: fadeIn 0.3s ease-out;
+      
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeOut {
+      0% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      100% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+    }
+
+    #close-btn3 {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+    }
+
+
+
+
+
+
+
+
+            #overlay-4 {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 9999;
+      overflow: auto;
+    }
+
+    #modal-4 {
+      background-color: #fff;
+      margin: 50px auto;
+      padding: 20px;
+      max-width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      animation: fadeIn 0.3s ease-out;
+      
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeOut {
+      0% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      100% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+    }
+
+    #close-btn4 {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+    }
+
+
+
+
+
